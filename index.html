@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head lang='en'>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/desktop.css" type="text/css" rel="stylesheet">
+        <link href="styles/mobile.css" type="text/css" rel="stylesheet">
+        <script src="scripts/scripts.js" async></script>
+    </head>
+
+    <body>
+
+        <h1>rock paper scissors</h1>
+
+        <main>
+            <div class="options">
+                <button class="option" id="rock" >rock</button>
+                <button class="option" id="paper">paper</button>
+                <button class="option" id="scissors">scissors</button>
+            </div>
+
+            <div class="result">
+                <p>You threw: <span id="userChoice"></span></p>
+                <p>Computer threw: <span id="compChoice"></span></p>
+                <p>Winner: <span id="winner"></span></p>
+            </div>
+
+            <div class="score">
+                <p>Your score: <span id="userscore">0</span></p>
+                <p>Comp score: <span id="compscore">0</span></p>
+            </div>
+
+            <div class="play">
+                <button id="playagain">Play again?</button>
+            </div>
+        </main>
+    </body>
+</html>
