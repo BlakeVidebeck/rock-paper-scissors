@@ -7,8 +7,8 @@
   let paper = document.getElementById('paper')
   let scissors = document.getElementById('scissors')
 
-  let compScore = document.getElementById('userscore');
-  let userScore = document.getElementById('compscore')
+  let compScore = document.getElementById('compscore');
+  let userScore = document.getElementById('userscore')
   
   let cScore = 0;
   let uScore = 0;
